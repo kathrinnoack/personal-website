@@ -1,13 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Personal Website - Kathrin Noackt</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body>
-    <h1 class="text-danger">hello world!!</h1>
-</body>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <!--im header ist der Name und die Links zu Kontakt und Biografie drin-->
+    <header class="container-fluid">
+      <nav class="mb-2 bg-dark text-white">
+        <div class="navbar">
+          <h1 class="h2">Kathrin Noack</h1>
+          <div class="navbar-text navbar-expand-md">
+            <a class="nav-item mr-3" href="#kontakt">Kontakt</a>
+            <a class="nav-item" href="#bio">Biografie</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--mein Foto und Kurzbeschreibung-->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img
+            src="/public/personal_foto.1024x1024.jpg"
+            alt="my photo"
+            width="50%"
+            height="auto"
+          />
+
+          <p class="small">
+            "Es scheint immer unmöglich, bis es vollbracht ist." - Nelson
+            Mandela
+          </p>
+          <p>
+            Ich bin Kathrin Noack und immer auf der Suche nach neuen Aufgaben
+            und Herausforderungen.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h5>Fähigkeiten</h5>
+          <button type="button" class="btn btn-secondary mb-1">
+            Verantwortungsbewusstsein
+          </button>
+          <button type="button" class="btn btn-secondary mb-1">
+            Flexibilität
+          </button>
+          <button type="button" class="btn btn-secondary mb-1">
+            strukturierte Arbeitsweise
+          </button>
+
+          <p>
+            In den vergangenen Jahren konnte ich in den Branchen Konsumgüter-
+            und Mode viel Erfahrung sammeln. Dabei gab es immer wieder Themen
+            und Projekte, die mich inhaltlich besonders begeistert haben. Esse
+            signiferumque id sea, vix no saepe scaevola. Eum malorum utroque
+            epicurei cu, ad mei nullam scribentur mediocritatem. Cum ne debet
+            everti, vel vide harum maiorum ut, nec ea quando oblique. Duo eu
+            menandri qualisque dissentias, cum libris discere delectus an. Eam
+            et sonet delenit aliquando, duo habeo vocibus at, lorem epicurei
+            pertinacia nec eu. Duo ea error adipisci. Harum indoctum vix ut, an
+            pro magna quando. Tantas sapientem molestiae ut eum.
+          </p>
+        </div>
+      </div>
+
+      <!--Kommentar:hier soll ein Block mit den Kontaktdaten hin; gerne mit Rahmen -->
+      <div class="row bg-dark text-white mb-5">
+        <div class="col-sm-12 col-md-4">
+          <section id="kontakt">Kontakt</section>
+        </div>
+        <div class="col-md-4">
+          Mobil: 0176 - 21 10 96 56
+        </div>
+        <div class="col-md-4">email: KN82@gmx.de</div>
+      </div>
+
+      <!--nächster Block mit Social Profilen; Logo der Seite und Link zum Profil-->
+      <div class="row mb-5 mt-5">
+        <div class="col-md-4 text-center mb-3">
+          <a href="https://github.com/kathrinnoack" target="_blank">
+            <img
+              src="/public/github-1.svg"
+              alt="Github"
+              width="100"
+              height="auto"
+          /></a>
+          <br />
+          <a
+            href="https://github.com/kathrinnoack"
+            target="_blank"
+            alt="Profil Github"
+            >Github</a
+          >
+        </div>
+        <div class="col-md-4 text-center mb-3">
+          <a href="https://codepen.io/kathrinnoack/" target="_blank"
+            ><img
+              src="/public/codepen-icon.svg"
+              alt="Codepen"
+              width="100"
+              height="auto"/></a
+          ><br />
+          <a
+            href="https://codepen.io/kathrinnoack/"
+            target="_blank"
+            alt="Profil Codepen"
+            >Codepen</a
+          >
+          <br />
+        </div>
+        <div class="col-md-4 text-center mb-3">
+          <a href="#" target="_blank">
+            <img
+              src="/public/xing-icon.svg"
+              alt="Xing Profil"
+              width="100"
+              height="auto"/></a
+          ><br />
+          <a href="#" alt="Profil Xing">Xing</a>
+        </div>
+      </div>
+      <!--hier kommt jetzt ein Textblock mit der Biografie (tabelle) und link nach oben-->
+      <div>
+        <div>
+          <h6 id="bio">
+            Berufserfahrung
+          </h6>
+          <table class="table table-borderless">
+            <tbody>
+              <tr class="row">
+                <td class="col-sm-4 col-md-2">11/2017 bis 01/2019</td>
+                <td class="col-sm-8 col-md-4">
+                  <p>Tom Tailor Group, Hamburg <br />Manager Outlet Planning</p>
+                  <ul>
+                    Hauptaufgaben
+                    <li>
+                      Budgetplanung (Erstellung des Jahresbudgets auf Store und
+                      Produktlinienebene für die KPI´s Net Sales, Markdowns,
+                      etc.)
+                    </li>
+                    <li>monatlicher Umsatzforecast in Abstimmung mit Buying</li>
+                    <li>monatlicher Bestandsforecast</li>
+                    <li>
+                      monatliche Erstellung der OTB´s anhand der Umsatzplanung
+                      auf Produklinien und Warengruppenebene und Übergabe an die
+                      Einkäufer
+                    </li>
+                  </ul>
+                  <ul>
+                    weitere Aufgaben
+                    <li>Erstellung von ad-hoc Analysen</li>
+                    <li>Beratung bei Salesmaßnahmen</li>
+                  </ul>
+                </td>
+
+                <td class="col-sm-4 col-md-2">11/2007 bis 10/2017</td>
+                <div class="col-sm-8 col-md-4">
+                  <td class="col-sm-8 col-md-4">
+                    <p>
+                      HSE24, Ismaning <br />04/2017 bis 10/2017 Senior
+                      Merchandise & Sales Planner Home
+                    </p>
+                    <ul>
+                      Hauptaufgaben
+                      <li>
+                        Sicherstellen der Erreichung der wirtschaftlichen Ziele
+                        über alle Vertreibskanäle
+                      </li>
+                      <li>Vorhersage der zu erwartenden Nachfrage</li>
+                      <li>
+                        kontinuierliches Monitoring und Forecasting der zu
+                        verantwortenden KPI´s
+                      </li>
+                      <li>
+                        Unterstützung und Beratung des Fachbereichs Einkauf
+                      </li>
+                      <li>
+                        Unterstützung bei der PLanung von kommunikativen
+                        Maßnahmen (z.B. Trailer, Newsletter, Print)
+                      </li>
+                    </ul>
+                    <ul>
+                      Senior Aufgaben
+                      <li>Vertretung des Supervisors</li>
+                      <li>
+                        Teilnahme an International Senior Summits zum
+                        Wissenstransfer
+                      </li>
+                    </ul>
+                    <ul>
+                      Weitere Aufgaben
+                      <li>Einarbeitung neuer Kollegen ins Berichtswesen</li>
+                      <li>
+                        Kommunikation neuer Themen/ Systemänderungen innerhalb
+                        des Bereichs Planung & Analyse
+                      </li>
+                      <li>
+                        Unterstützung & Teilnahme bei abteilungsübergreifenden
+                        Projekten
+                      </li>
+                    </ul>
+                  </td>
+
+                  <td class="col-sm-8 offset-sm-4 col-md-4 offset-md-8">
+                    <p>11/2007 bis 03/2017 Merchandise & Sales Planer Home</p>
+                  </td>
+                </div>
+              </tr>
+            </tbody>
+          </table>
+
+          <p></p>
+        </div>
+      </div>
+      <div>
+        <h6>Ausbildung</h6>
+        <table>
+          <tr class="row">
+            <td class="col-sm-4">11/2006 bis 05/2007</td>
+            <td class="col-sm-8">
+              Diplomarbeit bei der Krones AG, Neutraubling; "Optimierung der
+              Schaltschrankproduktion der Krones AG
+            </td>
+          </tr>
+          <tr class="row">
+            <td class="col-sm-4">10/2002 bis 05/2007</td>
+            <td class="col-sm-8">
+              Fachhochschule Regensburg; Studium der Betriebswirtschaftslehre,
+              Schwerpunkt Logistik
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <footer class="container-fluid">
+      <p class="text-center small p-2 mt-3 bg-dark text-white">
+        © Kathrin Stand: 2019/06
+      </p>
+    </footer>
+  </body>
 </html>
